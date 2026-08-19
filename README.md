@@ -6,11 +6,13 @@ This repository contains the experimental data and computational results for the
 
 Authors: Fuli Xiong, Chengfei Xiang
 
+## 📁 Repository Structure
+
+```
 BOASP-DPFS/
 ├── Data/
 │   ├── test_instances/           # Full test instance set (974 instances)
-│   │
-│   └── sampled_instances/        # Sampled instances for ablation study (144 instances)                       
+│   └── sampled_instances/        # Sampled instances for ablation study (144 instances)
 │
 └── Result/
     ├── Small/                    # Small-scale instance results (J ≤ 25)
@@ -29,27 +31,27 @@ BOASP-DPFS/
     │
     ├── sampled/                  # Ablation study results
     │   ├── RHPR-LBBD.csv
-    │   ├── RHPR-no-2s.csv        
-    │   ├── RHPR-no-alls.csv     
-    │   ├── RHPR-no-cut1.csv     
-    │   ├── RHPR-no-cut2.csv      
-    │   └── RHPR-no-fix-ub.csv    
+    │   ├── RHPR-no-2s.csv
+    │   ├── RHPR-no-alls.csv
+    │   ├── RHPR-no-cut1.csv
+    │   ├── RHPR-no-cut2.csv
+    │   └── RHPR-no-fix-ub.csv
     │
     ├── Parameter tuning/         # Algorithm parameter tuning results
     │   ├── ga_tuning_results.csv     # GA
-    │   ├── pso_tuning_results.csv    # PSO:
+    │   ├── pso_tuning_results.csv    # PSO
     │   ├── vns_tuning_results.csv    # VNS
     │   └── woa_tuning_result.csv     # WOA
     │
     └── Comparison with metaheuristics/  # Metaheuristic comparison results
         ├── RHPR-LBBD(300s).csv
-        ├── GA.csv                
-        ├── WOA.csv                
-        ├── VNS.csv                
-        └── PSO.csv               
+        ├── GA.csv
+        ├── WOA.csv
+        ├── VNS.csv
+        └── PSO.csv
+```
 
-
-Experimental Design
+## 🧪 Experimental Design
 
 Experiment 1: Small-Scale Instance Comparison (Section 5.2)
 
