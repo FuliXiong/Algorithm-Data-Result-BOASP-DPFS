@@ -1,4 +1,4 @@
-﻿算法,实例名称,工件数,工厂数,工序数,Alpha,实例序号,状态,目标值,下界,Gap,总求解时间(s),日志路径,可行
+Algorithm,Instance,Jobs,Factories,Operations,Alpha,Instance_No,Status,Objective,Lower_Bound,Gap,Total_Time_s,Log_Path,Feasible
 PSO,30-3-6-a0.1-i1.json,30,3,6,0.1,1,PSO,7248.0,无,无,299.174,,True
 PSO,30-3-6-a0.1-i2.json,30,3,6,0.1,2,PSO,7998.0,无,无,300.019,,True
 PSO,30-3-6-a0.1-i3.json,30,3,6,0.1,3,PSO,6721.0,无,无,299.334,,True

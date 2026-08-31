@@ -1,4 +1,4 @@
-﻿算法,实例名称,工件数,工厂数,工序数,Alpha,实例序号,状态,目标值,下界,Gap,总求解时间(s),日志路径,可行
+Algorithm,Instance,Jobs,Factories,Operations,Alpha,Instance_No,Status,Objective,Lower_Bound,Gap,Total_Time_s,Log_Path,Feasible
 VNS,30-3-6-a0.1-i1.json,30,3,6,0.1,1,VNS,7419.0,无,无,299.099,,错误
 VNS,30-3-6-a0.1-i2.json,30,3,6,0.1,2,VNS,7542.0,无,无,299.031,,True
 VNS,30-3-6-a0.1-i3.json,30,3,6,0.1,3,VNS,6726.0,无,无,299.029,,True
