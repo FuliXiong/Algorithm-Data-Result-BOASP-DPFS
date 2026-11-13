@@ -39,10 +39,10 @@ BOASP-DPFS/
     │
     ├── Parameter tuning/         # Algorithm parameter tuning results
     │   ├──NEH+.csv     # vN-NEH+
-    │   ├── ga_tuning_results.csv and ga_phase2_results.csv     # GA
-    │   ├── pso_tuning_results.csv and pso_phase2_results.csv    # PSO
-    │   ├── vns_tuning_results.csv and vns_phase2_results.csv    # VNS
-    │   └── woa_tuning_result.csv and woa_phase2_results.csv     # WOA
+    │   ├── ga_tuning_results.csv     # GA
+    │   ├── pso_tuning_results.csv     # PSO
+    │   ├── vns_tuning_results.csv    # VNS
+    │   └── woa_tuning_result.csv      # WOA
     │
     └── Comparison with metaheuristics/  # Metaheuristic comparison results
         ├── RHPR-LBBD(300s).csv
